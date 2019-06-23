@@ -410,6 +410,7 @@ Ship = function () {
     return ["asteroid", "bigalien", "alienbullet"];
   }
 
+  /*Just a comment*/
   this.shoot = function() {
     for (var i = 0; i < this.bullets.length; i++) {
       if (!this.bullets[i].visible) {
